@@ -17,3 +17,7 @@ git reset HEAD Test.txt <<Take file from staging area to working copy>>
 git remote add $nickname $GitURL <<Local repo mit Github verbinden
 
 git push -u $nickname master
+
+$ git checkout <existing_branch>
+
+$ git checkout -b <new_branch>
