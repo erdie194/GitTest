@@ -8,4 +8,12 @@ git rm Test.txt
 
 git mv Test.txt Test1.txt
 
-git checkout -- Test.txt
+git checkout -- Test.txt <<Take file from Reposirtory in working copy>>
+
+git checkout $commitnumber -- Test.txt <<Take file older commit in working copy>>
+
+git reset HEAD Test.txt <<Take file from staging area to working copy>>
+
+git remote add $nickname $GitURL <<Local repo mit Github verbinden
+
+git push -u $nickname master
