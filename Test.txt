@@ -1,1 +1,11 @@
-Test MR Test Test LOL
+git init
+git add .
+git add Test.txt
+
+git commit -m "Text"
+
+git rm Test.txt
+
+git mv Test.txt Test1.txt
+
+git checkout -- Test.txt
